@@ -1,23 +1,47 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>GIVIN</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      text-align: center;
-      margin-top: 100px;
-      background-color: #ffe5d9;
-    }
-    h1 {
-      color: #ff5e78;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Selamat datang di GIVIN!</h1>
-  <p>Aplikasi investasi harian dengan misi</p>
+  <header class="app-header">
+    <div class="language">🇮🇩 | 🇬🇧</div>
+    <h1 class="center-title">GIVIN</h1>
+  </header>
+
+  <main class="content">
+    <section class="card announcement">
+      <p>✨ Selamat datang di aplikasi GIVIN! ✨</p>
+    </section>
+
+    <section class="card menu-icons">
+      <div class="menu-item">🏢<br>Profil Perusahaan</div>
+      <div class="menu-item">📢<br>Pengumuman</div>
+      <div class="menu-item">💸<br>Menarik</div>
+      <div class="menu-item">➕<br>Mengisi Ulang</div>
+    </section>
+
+    <section class="card members">
+      <h2>Daftar Anggota Terbaru</h2>
+      <marquee behavior="scroll" direction="up" scrollamount="2" height="60">
+        <p>+62••••1234 - useralpha</p>
+        <p>+62••••5678 - userbeta</p>
+        <p>+62••••4321 - usergamma</p>
+        <p>+62••••8765 - userdelta</p>
+      </marquee>
+    </section>
+  </main>
+
+  <nav class="bottom-nav">
+    <a href="index.html">🏠<br>Beranda</a>
+    <a href="task.html">📋<br>Tugas</a>
+    <a href="status.html">📊<br>Status</a>
+    <a href="tim.html">👥<br>Tim</a>
+    <a href="profil.html">👤<br>Profil</a>
+  </nav>
 </body>
 </html>
