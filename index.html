@@ -1,47 +1,103 @@
-
-<!DOCTYPE html>
-<html lang="id">
+<!DOCTYPE html><html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>GIVIN</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GIVIN - Halaman Utama</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffe5d4; /* Warna peach pastel */
+      color: #333;
+    }
+    header {
+      background-color: #ffb997; /* Warna peach lebih tua */
+      text-align: center;
+      padding: 10px 0;
+      font-weight: bold;
+      font-size: 24px;
+    }
+    .subtitle {
+      text-align: center;
+      color: #d17c54;
+      font-size: 14px;
+    }
+    .banner-box {
+      border: 2px solid #d17c54;
+      margin: 10px;
+      padding: 10px;
+      background-color: #fff0e6;
+      text-align: center;
+    }
+    .button-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 0 10px;
+    }
+    .btn {
+      border: 2px solid #d17c54;
+      background-color: #ffe5d4;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+    .info-box {
+      border: 2px solid #d17c54;
+      margin: 10px;
+      padding: 10px;
+      background-color: #fff;
+    }
+    .info-box p {
+      margin: 5px 0;
+    }
+    .anggota {
+      padding: 10px;
+      font-size: 14px;
+    }
+    footer {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+      background-color: #ffb997;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    footer div {
+      text-align: center;
+      font-size: 12px;
+    }
+  </style>
 </head>
 <body>
-  <header class="app-header">
-    <div class="language">🇮🇩 | 🇬🇧</div>
-    <h1 class="center-title">GIVIN</h1>
-  </header>
-
-  <main class="content">
-    <section class="card announcement">
-      <p>✨ Selamat datang di aplikasi GIVIN! ✨</p>
-    </section>
-
-    <section class="card menu-icons">
-      <div class="menu-item">🏢<br>Profil Perusahaan</div>
-      <div class="menu-item">📢<br>Pengumuman</div>
-      <div class="menu-item">💸<br>Menarik</div>
-      <div class="menu-item">➕<br>Mengisi Ulang</div>
-    </section>
-
-    <section class="card members">
-      <h2>Daftar Anggota Terbaru</h2>
-      <marquee behavior="scroll" direction="up" scrollamount="2" height="60">
-        <p>+62••••1234 - useralpha</p>
-        <p>+62••••5678 - userbeta</p>
-        <p>+62••••4321 - usergamma</p>
-        <p>+62••••8765 - userdelta</p>
-      </marquee>
-    </section>
-  </main>
-
-  <nav class="bottom-nav">
-    <a href="index.html">🏠<br>Beranda</a>
-    <a href="task.html">📋<br>Tugas</a>
-    <a href="status.html">📊<br>Status</a>
-    <a href="tim.html">👥<br>Tim</a>
-    <a href="profil.html">👤<br>Profil</a>
-  </nav>
+  <header>G I V I N</header>
+  <div class="subtitle">
+    Give stars to earn<br><b style="color:#ff9900">(Stiker Bintang 5)</b>
+  </div>  <div class="banner-box">
+    Banner Givin
+  </div>  <div class="button-grid">
+    <div class="btn">Isi ulang</div>
+    <div class="btn">Menarik</div>
+    <div class="btn">Tingkatkan Level</div>
+    <div class="btn">Layanan Khusus</div>
+  </div>  <div class="info-box">
+    <p>Saldo: Rp. 123.12</p>
+    <p>Penghasilan hari ini: Rp. 123.12</p>
+    <p>Deposit: Rp. 123.12</p>
+    <p>Bonus Tim: Rp. 123.12</p>
+  </div>  <div class="anggota">
+    <b>Daftar anggota bergabung:</b><br>
+    • User A<br>
+    • User B<br>
+    • User C
+  </div>  <footer>
+    <div>Beranda</div>
+    <div>Tugas</div>
+    <div>Level</div>
+    <div>Tim</div>
+    <div>Profil</div>
+  </footer>
 </body>
 </html>
